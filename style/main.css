@@ -81,9 +81,45 @@ nav h3{
     align-items: center;
     gap: 20px;
 }
+/* Main division */
 main{
     max-width: 1140px;
     margin: 0 auto;
     width: 100%;
+}
+/* Action Section */
+.action-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin: 100px 0;
+}
+.action-content{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.action-content h2{
+    font-size: 42px;
+    font-weight: 800;
+    color: #252432;
+    font-family: "raleway", sans-serif;
+}
+.action-content p{
+    font-size: 16px;
+    color: #252432;
+    font-family: "raleway", sans-serif;
+}
+.action-img img{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
