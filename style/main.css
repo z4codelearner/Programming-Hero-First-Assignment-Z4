@@ -295,3 +295,80 @@ main{
     -ms-border-radius: 48px;
     -o-border-radius: 48px;
 }
+/* Get in Touch Style */
+.get-in-touch-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 70px 0;
+    margin: 100px 0;
+}
+.get-in-touch-title{
+    width: 50%;
+}
+.get-in-touch-title h2{
+    font-size: 96px;
+    font-weight: 800;
+    color: #252432;
+    font-family: "raleway", sans-serif;
+}
+.get-in-touch-form{
+    width: 50%;
+}
+.get-in-touch-form input[type="text"], input[type="email"]{
+    display: block;
+    margin-bottom: 24px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #00000050;
+    border-radius: 10px;
+    border: 1px solid #4d47ff33;
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "inter", sans-serif;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.get-in-touch-form textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #757575;
+    border-radius: 10px;
+    border: 1px solid #4d47ff33;
+    width: 100%;
+    height: 150px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "inter", sans-serif;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.get-in-touch-form form button{
+    display: block;
+    margin-bottom: 24px;
+    padding: 10px 20px;
+    background-color: #4E47FF;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "raleway", sans-serif;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
