@@ -39,11 +39,7 @@
     background-color: #ffffff;
     color: #4E47FF;
     border: 1px solid #4E47FF;
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
+
 }
 /* Header */
 .header{
@@ -437,9 +433,5 @@ footer{
 }
 .footer-container ul li a:hover{
     color: #4E47FF;
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
+
 }
