@@ -57,7 +57,7 @@ nav h3{
     font-family: "inter", sans-serif;
 }
 .banner{
-    width: 50%;
+    max-width: 960px;
     margin: 0 auto;
     text-align: center;
     height: 50vh;
@@ -261,7 +261,6 @@ main{
     background-color: #ffffff;
     padding: 70px 150px;
     text-align: center;
-    margin: 100px 0;
     border-radius: 24px;
     -webkit-border-radius: 24px;
     -moz-border-radius: 24px;
@@ -376,7 +375,53 @@ main{
 }
 .get-in-touch-form label{
     font-size: 18px;
-    color: #000000;
+    color: #252432;
     font-family: "inter", sans-serif;
     font-weight: 600;
+}
+
+/* footer style */
+footer{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 100px 0;
+    color: #252432;
+    text-align: center;
+    border: 1px solid #4d47ff33;
+}
+.footer-container{
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer-container h2{
+    font-size: 100px;
+    font-weight: 800;
+    color: #4E47FF;
+    font-family: "inter", sans-serif;
+}
+.footer-container p{
+    font-size: 20px;
+    color: #00000050;
+    font-family: "inter", sans-serif;
+}
+.footer-container ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer-container ul li{
+    list-style: none;
+}
+.footer-container ul li a{
+    text-decoration: none;
+    color: #00000050;
+    font-size: 20px;
+    font-family: "inter", sans-serif;
 }
