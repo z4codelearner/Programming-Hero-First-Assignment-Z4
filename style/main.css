@@ -62,7 +62,7 @@ nav h3{
     width: 50%;
     margin: 0 auto;
     text-align: center;
-    height: 60vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,14 +112,60 @@ main{
 }
 .action-content p{
     font-size: 16px;
-    color: #252432;
+    color: #00000050;
     font-family: "raleway", sans-serif;
 }
 .action-img img{
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    border-radius: 48px;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    -ms-border-radius: 48px;
+    -o-border-radius: 48px;
+}
+/* Productive Users Style */
+.productive-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: #4d47ff33;
+    padding: 50px 80px;
+    margin: 100px 0;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+.active-users{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+}
+.productive-user-title{
+    font-size: 38px;
+    font-weight: 800;
+    color: #252432;
+    font-family: "raleway", sans-serif;
+}
+.users-activity{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.users-activity span{
+    font-size: 80px;
+    font-weight: 800;
+    color: #4E47FF;
+    font-family: "inter", sans-serif;
+}
+.users-activity p{
+    font-size: 20px;
+    color: #00000050;
+    font-family: "inter", sans-serif;
 }
 
