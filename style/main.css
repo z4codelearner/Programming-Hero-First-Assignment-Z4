@@ -30,10 +30,20 @@
     background-color: #4E47FF;
     color: #fff;
     padding: 10px 20px;
-    border: none;
+    border: 1px solid transparent;
     border-radius: 5px;
     cursor: pointer;
     font-family: "raleway", sans-serif;
+}
+.btn-primary:hover{
+    background-color: #fff;
+    color: #4E47FF;
+    border: 1px solid #4E47FF;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
 /* Header */
 .header{
@@ -48,7 +58,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 150px;
+    padding: 20px 90px;
 }
 nav h3{
     color: #4E47FF;
@@ -424,4 +434,12 @@ footer{
     color: #00000050;
     font-size: 20px;
     font-family: "inter", sans-serif;
+}
+.footer-container ul li a:hover{
+    color: #4E47FF;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
